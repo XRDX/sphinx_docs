@@ -10,5 +10,7 @@
    :maxdepth: 2
 
    introduction
+   policy
    class_form
-   LeapLearner
+   about
+   qa

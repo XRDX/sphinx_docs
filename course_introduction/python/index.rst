@@ -10,7 +10,6 @@ Python课程
    :maxdepth: 2
 
    what_is_python
-   why_python
    python_L1
    python_L2
    python_L3

@@ -6,7 +6,6 @@ LeapLearner课程介绍
 
    introduction/index
    scratch/index
-   javascript/index
    python/index
    noip/index
    other/index
