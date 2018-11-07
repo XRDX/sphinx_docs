@@ -10,6 +10,8 @@
    :maxdepth: 2
 
    introduction
+   why_learning
+   examples
    policy
    class_form
    about
