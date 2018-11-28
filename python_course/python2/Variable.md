@@ -38,7 +38,7 @@ a = b = c = 1
 当然也可以为多个对象指定多个变量。例如：
 
 ```python
-a, b, c = 1, 2, "liangdianshui"
+a, b, c = 1, 2, "shengfang"
 ```
 
-以上实例，两个整型对象 1 和 2 的分配给变量 a 和 b，字符串对象 "liangdianshui" 分配给变量 c。
+以上实例，两个整型对象 1 和 2 的分配给变量 a 和 b，字符串对象 "shengfang" 分配给变量 c。

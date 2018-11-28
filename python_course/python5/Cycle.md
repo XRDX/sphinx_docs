@@ -117,7 +117,7 @@ for iterating_var in sequence:
 实例：
 
 ```python
-for letter in 'Hello 两点水':
+for letter in 'Hello 妮娜':
     print(letter)
 ```
 

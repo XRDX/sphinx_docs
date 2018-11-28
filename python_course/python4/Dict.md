@@ -3,7 +3,7 @@
 经过之前的学习，我们可以知道 list 和 tuple 可以用来表示有序集合，之前我们那个例子是用 list 来存储了用户的昵称
 
 ```python
-user=['liangdianshui','twowater','两点水']
+user=['shengfang','nina','妮娜']
 ```
 
 如果我们需要把用户的账号也记录进去呢？
@@ -11,13 +11,13 @@ user=['liangdianshui','twowater','两点水']
 用 list 可以这样子解决：
 
 ```python
-user=[['liangdianshui','111111'],['twowater','222222'],['两点水','333333']]
+user=[['shengfang','111111'],['nina','222222'],['妮娜','333333']]
 ```
 
 可是这样表示也不方便，而且很难根据昵称找到对应的昵称，且 list 越长，耗时越长；这时候就可以用 dict （字典）来表示了，Python 内置了 字典（dict），dict 全称dictionary，相当于 JAVA 中的 map，使用键-值（key-value）存储，具有极快的查找速度。
 
 ```python
-user={'liangdianshui':'111111' ,'twowater':'222222' ,'两点水':'333333'}
+user={'shengfang':'111111' ,'nina':'222222' ,'妮娜':'333333'}
 ```
 
 
@@ -36,7 +36,7 @@ dict = {key1 : value1, key2 : value2 }
 创建 dict（字典）实例：
 
 ```python
-dict1={'liangdianshui':'111111' ,'twowater':'222222' ,'两点水':'333333'}
+dict1={'shengfang':'111111' ,'nina':'222222' ,'妮娜':'333333'}
 dict2={'abc':1234,1234:'abc'}
 ```
 
@@ -44,7 +44,7 @@ dict2={'abc':1234,1234:'abc'}
 
 ```python
 #-*-coding:utf-8-*-
-dict1={'liangdianshui':'111111' ,'twowater':'222222' ,'两点水':'333333'}
+dict1={'shengfang':'111111' ,'nina':'222222' ,'妮娜':'333333'}
 print(dict1)
 
 ```
@@ -52,7 +52,7 @@ print(dict1)
 输出的结果：
 
 ```
-{'liangdianshui': '111111', 'twowater': '222222', '两点水': '333333'}
+{'shengfang': '111111', 'nina': '222222', '妮娜': '333333'}
 ```
 
 这里需要注意的一点是：如果字典中没有这个键，是会报错的。
@@ -63,22 +63,22 @@ print(dict1)
 
 ```python
 #-*-coding:utf-8-*-
-dict1={'liangdianshui':'111111' ,'twowater':'222222' ,'两点水':'333333'}
+dict1={'shengfang':'111111' ,'nina':'222222' ,'妮娜':'333333'}
 print(dict1)
 # 新增一个键值对
 dict1['jack']='444444'
 print(dict1)
 # 修改键值对
-dict1['liangdianshui']='555555'
+dict1['shengfang']='555555'
 print(dict1)
 ```
 
 输出的结果：
 
 ```
-{'liangdianshui': '111111', 'twowater': '222222', '两点水': '333333'}
-{'liangdianshui': '111111', 'twowater': '222222', '两点水': '333333', 'jack': '444444'}
-{'liangdianshui': '555555', 'twowater': '222222', '两点水': '333333', 'jack': '444444'}
+{'shengfang': '111111', 'nina': '222222', '妮娜': '333333'}
+{'shengfang': '111111', 'nina': '222222', '妮娜': '333333', 'jack': '444444'}
+{'shengfang': '555555', 'nina': '222222', '妮娜': '333333', 'jack': '444444'}
 ```
 
 ## 4、删除 dict （字典） ##
@@ -89,10 +89,10 @@ print(dict1)
 
 ```python
 #-*-coding:utf-8-*-
-dict1={'liangdianshui':'111111' ,'twowater':'222222' ,'两点水':'333333'}
+dict1={'shengfang':'111111' ,'nina':'222222' ,'妮娜':'333333'}
 print(dict1)
 # 通过 key 值，删除对应的元素
-del dict1['twowater']
+del dict1['nina']
 print(dict1)
 # 删除字典中的所有元素
 dict1.clear()
@@ -104,8 +104,8 @@ del dict1
 输出的结果：
 
 ```
-{'liangdianshui': '111111', 'twowater': '222222', '两点水': '333333'}
-{'liangdianshui': '111111', '两点水': '333333'}
+{'shengfang': '111111', 'nina': '222222', '妮娜': '333333'}
+{'shengfang': '111111', '妮娜': '333333'}
 {}
 ```
 
@@ -117,15 +117,15 @@ del dict1
 
 ```python
 #-*-coding:utf-8-*-
-dict1={'liangdianshui':'111111' ,'twowater':'222222' ,'两点水':'333333','twowater':'444444'}
+dict1={'shengfang':'111111' ,'nina':'222222' ,'妮娜':'333333','nina':'444444'}
 print(dict1)
-print(dict1['twowater'])
+print(dict1['nina'])
 ```
 
 输出的结果：
 
 ```
-{'liangdianshui': '111111', 'twowater': '444444', '两点水': '333333'}
+{'shengfang': '111111', 'nina': '444444', '妮娜': '333333'}
 444444
 ```
 
@@ -136,14 +136,14 @@ print(dict1['twowater'])
 
 ```python
 #-*-coding:utf-8-*-
-dict1={'liangdianshui':'111111' ,123:'222222' ,(123,'tom'):'333333','twowater':'444444'}
+dict1={'shengfang':'111111' ,123:'222222' ,(123,'tom'):'333333','nina':'444444'}
 print(dict1)
 ```
 
 输出结果：
 
 ```
-{'liangdianshui': '111111', 123: '222222', (123, 'tom'): '333333', 'twowater': '444444'}
+{'shengfang': '111111', 123: '222222', (123, 'tom'): '333333', 'nina': '444444'}
 ```
 
 (3) dict 内部存放的顺序和 key 放入的顺序是没有任何关系

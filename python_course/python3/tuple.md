@@ -9,8 +9,8 @@ tuple 不可变是指当你创建了 tuple 时候，它就不能改变了，也�
 元组创建很简单，只需要在括号中添加元素，并使用逗号隔开即可。
 
 ```python
-tuple1=('两点水','twowter','liangdianshui',123,456)
-tuple2='两点水','twowter','liangdianshui',123,456
+tuple1=('妮娜','twowter','shengfang',123,456)
+tuple2='妮娜','twowter','shengfang',123,456
 ```
 
 创建空元组
@@ -42,8 +42,8 @@ tuple（元组）可以使用下标索引来访问元组中的值
 ```python
 #-*-coding:utf-8-*-
 
-tuple1=('两点水','twowter','liangdianshui',123,456)
-tuple2='两点水','twowter','liangdianshui',123,456
+tuple1=('妮娜','twowter','shengfang',123,456)
+tuple2='妮娜','twowter','shengfang',123,456
 
 print(tuple1[1])
 print(tuple2[0])
@@ -62,7 +62,7 @@ print(tuple2[0])
 ```python
 #-*-coding:utf-8-*-
 list1=[123,456]
-tuple1=('两点水','twowater','liangdianshui',list1)
+tuple1=('妮娜','nina','shengfang',list1)
 print(tuple1)
 list1[0]=789
 list1[1]=100
@@ -71,8 +71,8 @@ print(tuple1)
 
 输出的结果：
 ```
-('两点水', 'twowater', 'liangdianshui', [123, 456])
-('两点水', 'twowater', 'liangdianshui', [789, 100])
+('妮娜', 'nina', 'shengfang', [123, 456])
+('妮娜', 'nina', 'shengfang', [789, 100])
 ```
 
 
@@ -90,7 +90,7 @@ tuple 元组中的元素值是不允许删除的，但我们可以使用 del 语
 ```python
 #-*-coding:utf-8-*-
 
-tuple1=('两点水','twowter','liangdianshui',[123,456])
+tuple1=('妮娜','twowter','shengfang',[123,456])
 print(tuple1)
 del tuple1
 ```
