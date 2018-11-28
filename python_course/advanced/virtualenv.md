@@ -68,7 +68,7 @@ Virtualenv 附带有 pip 安装工具，因此需要安装的 packages 可以直
 pip install [套件名称]
 ```
 
-# Virtualenvwrapper
+## Virtualenvwrapper
 
 Virtualenvwrapper 是一个虚拟环境管理工具，它能够管理创建的虚拟环境的位置，并能够方便地查看虚拟环境的名称以及切换到指定的虚拟环境。
 

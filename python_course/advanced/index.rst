@@ -8,4 +8,3 @@ Python高级用法
    closure1
    closure2
    virtualenv
-   Mac

@@ -1,6 +1,4 @@
-> 原文：http://stackoverflow.com/questions/231767/the-python-yield-keyword-explained
->
-> 注：这是一篇 stackoverflow 上一个火爆帖子的译文
+# yield #
 
 ## 问题 ##
 
