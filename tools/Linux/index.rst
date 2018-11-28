@@ -3,15 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to LeapLearner's documentation!
+Tools
 ==========================================
 
 .. toctree::
    :maxdepth: 2
-   
-   Linux/index
-   tools/index
 
-
-
+   linux_commands
 
