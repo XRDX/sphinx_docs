@@ -159,3 +159,8 @@ texinfo_documents = [
      author, 'Sphinx-Install', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+
+def setup(app):
+    app.add_javascript("GA.js")
+    app.add_javascript("googleAnalysis.js")
