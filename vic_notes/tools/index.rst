@@ -9,6 +9,7 @@ Tools
 .. toctree::
    :maxdepth: 2
 
+   git
    svn
    sphinx
 
