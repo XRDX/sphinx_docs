@@ -11,5 +11,7 @@ Tools
 
    git
    svn
+   putty
+   google_analysis
    sphinx
 
