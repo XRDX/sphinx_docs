@@ -3,12 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-维克笔记
+Python相关问题
 ==========================================
 
 .. toctree::
    :maxdepth: 2
+
+   PythonInstallQuestions
    
-   linux/index
-   tools/index
-   raspberry/index
