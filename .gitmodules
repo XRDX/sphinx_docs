@@ -1,3 +1,6 @@
 [submodule "js_course"]
 	path = js_course
 	url = git@git.dev.tencent.com:xrdpnx/js_course.git
+[submodule "vic_notes"]
+	path = vic_notes
+	url = git@git.dev.tencent.com:xrdpnx/vic_notes.git
