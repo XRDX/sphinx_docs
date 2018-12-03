@@ -12,10 +12,12 @@
 defaults write org.python.python ApplePersistenceIgnoreState NO
 ~~~
 
-详情见视频11:39时的操作，链接如下：
+详情见视频11:39时的操作：
 
-<iframe src="http://cs.leaplearner.com/video/vs/sharing/ytN1zTVV#!aG9tZV92aWRlby03Njc1">
-</iframe>
+<iframe src="http://cs.leaplearner.com/video/vs/sharing/ytN1zTVV#!aG9tZV92aWRlby03Njc1"width='100%' id='video1' frameborder=0 'allowfullscreen'></iframe>
+<script type="text/javascript">
+document.getElementById("video1").style.height=document.getElementById("video1").scrollWidth*0.75+"px";
+</script>
 
 
 
@@ -119,7 +121,7 @@ https://jingyan.baidu.com/article/9c69d48fe9f1cb13c8024e67.html
 
 Python卸载不了或windows installer服务没开启，错误消息如下
 
-![5](images/5.jpg)
+![5](images/5.png)
 
 **方法一：**
 
@@ -155,13 +157,11 @@ MSIEXEC /REGSERVER
 
 手动添加系统变量，步骤见视频：
 
-<iframe src="http://cs.leaplearner.com/video/vs/sharing/ytN1zTVV#!aG9tZV92aWRlby03Nzgw">
-</iframe>
+[视频：添加系统变量](http://cs.leaplearner.com/video/vs/sharing/ytN1zTVV#!aG9tZV92aWRlby03Nzgw)
+
 
 
 ### windows和mac共有问题
-
-
 
 #### 运行无反应，浏览器F12查看有报错
 

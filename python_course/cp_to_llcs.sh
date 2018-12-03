@@ -1,0 +1,1 @@
+cp -rf ./_build/html/* ../../LLCS/python_course
