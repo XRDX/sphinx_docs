@@ -1,38 +1,38 @@
 ## Zoom
 
+### 账号注册
+
+ [Zoom网站](https://zoom.us)
+
 ### 软件下载地址
 
-[windows](https://zoom.us/client/latest/ZoomInstaller.exe) [OS X](https://rss.leaplearner.com/assets/pc/software/mac6_zoom.pkg)
+[windows](https://zoom.us/client/latest/ZoomInstaller.exe)
 
-[官方下载地址](https://zoom.us/download)
+[OS X](https://rss.leaplearner.com/assets/pc/software/mac6_zoom.pkg)
 
 ### Zoom功能说明
 
+#### 自动录制
+如果你总是遗忘录制会议视频，可以在设置里添加自动录制功能
+
+![autorec](images/auto_rec.png)
+
+
+#### 设置共同主持人
+
+可以给助教设置共同主持人权限，此时助教除了具有一般参会者权限外，还具有录制视频权限、给全员静音权限（包括给主持人静音）、还可以查看和解除参会者的举手等反馈信息。进入Zoom高级设置后：设置共同主持人
+
+
 #### 退出全屏（Alt+F）
 
-方法一: 双击黑色区域退出全屏
+点击右上方按钮退出全屏
 
 ![exitfull](images/exit_full.png)
 
 
-
-方法二: 鼠标移动到上方中间的位置，从菜单中退出全屏
-
-![](images/exit_full2.png)
-
-
-
-方法三：从右上方按钮退出
-
-![](images/exit_full3.png)
-
-
-
-
-
 #### 修改自己的名字
 
-在会议中修改自己的名字
+右键点击自己的头像，点击重命名
 
 ![](images/zoom_rename.png)
 

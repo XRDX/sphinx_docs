@@ -13,7 +13,6 @@ Tools
    svn
    putty
    zoom
-   zoom_host
    google_analysis
    sphinx
 
