@@ -1,6 +1,16 @@
 ## Sphnix使用手册
 
-### 安装
+### 安装 install
+
+[参考链接](http://www.sphinx-doc.org/en/master/usage/installation.html)
+
+#### Debian/Ubuntu
+
+```shell
+apt-get install python3-sphinx
+```
+
+#### windows
 
 1. 安装Python，建议使用Python 3
 
@@ -18,19 +28,26 @@ pip install recommonmark
 pip install sphinx_rtd_theme
 ```
 
-### 使用
+### 使用 usage
 
 创建一个新目录，在目录下执行命令
 ```shell
 sphnix-quickstart
 ```
 
+Linux 下
+```shell
+make clean
+make html
+```
+
+Windows 下
 ```shell
 make.bat clean
 make.bat html
 ```
 
-### 配置
+### 配置 setting
 
 修改conf.py文件
 ```python
@@ -53,11 +70,6 @@ html_theme = 'sphinx_rtd_theme'
 修改index.rst文件
 
 ```rst
-.. Sphinx-Install documentation master file, created by
-   sphinx-quickstart on Wed Jul 18 10:41:02 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Tools
 ==========================================
 
@@ -121,3 +133,8 @@ def setup(app):
     app.add_javascript("GA.vicc.wang.js")
 ```
 
+
+
+### Install Sphinx on Linux
+
+###
